@@ -58,6 +58,11 @@ a:hover, a:active {
     justify-content: center;
 }
 
+.spacer
+{
+    width: 100%;
+    height: 12rem;
+}
 
 /* Nav Styles */
 
@@ -65,11 +70,12 @@ a:hover, a:active {
     display: grid;
     grid-template-columns: auto 40% auto;
     grid-template-rows: auto;
-    
+    position: fixed;
     width: 100%;
-
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    z-index: 4;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    background-color: #fff;
 }
 
 
@@ -279,7 +285,6 @@ body {
 
         grid-template-columns:repeat(2, 50%);
         grid-template-rows: repeat(3, auto);
-        /* width: 80%; */
     
     }
 
@@ -293,6 +298,71 @@ body {
     
     footer > * {
         width: 12rem;
+        margin: 2rem;
+    }
+
+}
+/*Laptop*/
+@media only screen and (min-width: 1440px){
+    h1 {
+        font-size: 30pt;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: auto 70% auto;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+    
+    .navOverlays {
+        padding-bottom: 35rem;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-around;
+        justify-content: center;
+        margin: 10%;
+    }
+
+    footer > * {
+        width: 35%;
+        margin: 2rem;
+    }
+
+    input {
+        width: 100%;
+    }
+}
+
+
+
+
+/*Desktop*/
+@media only screen and (min-width: 1920px){
+    .content-wrapper {
+
+        grid-template-columns:repeat(3, auto);
+        grid-template-rows: repeat(2, auto);
+        /* width: 80%; */
+    
+    }
+
+    .navOverlays {
+        padding-bottom: 32rem;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        justify-content: center;
+        margin: 10%;
+    
+    }
+    
+    footer > * {
+        width: 35%;
         margin: 2rem;
     }
 
