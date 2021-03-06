@@ -1,0 +1,272 @@
+/* Wild Cards */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Custom Scoll Bar*/
+
+body::-webkit-scrollbar {
+    width: 12px;               
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(218, 218, 218);        
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #f98e2e;   
+    border-radius: 20px;       
+   
+}  
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20pt;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18pt; 
+}
+
+p {
+    font-family: 'Prata', serif;
+}
+
+a:link, a:visited {
+    font-family: 'Prata', serif;
+    color: black;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #f98e2e;
+}
+
+/* Centers Page */
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Nav Styles */
+
+.container {
+    display: grid;
+    grid-template-columns: auto 40% auto;
+    grid-template-rows: auto;
+    
+    width: 100%;
+
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: flex-start;
+  
+
+    width: 200px;
+    height: auto;
+}
+
+.logo-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.nav-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    
+}
+
+.nav-icon {
+    
+    width: 40px;
+    padding: 10px;
+    height: auto;
+}
+
+
+
+/* Portfolio Styles */
+
+.content-wrapper {
+    
+    display: grid;
+    grid-template-columns:repeat(1, 100%);
+    grid-template-rows: repeat(6, auto);
+    /* width: 80%; */
+
+}
+
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.navOverlays {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 17.5rem;
+
+    height: auto;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.navOverlaysBlur{
+    backdrop-filter: blur(6px);
+}
+
+.navOverlays > * {
+    transform: translateY(100px);
+    transition: transform 0.2s;
+}
+
+.navOverlays:hover > * {
+    /* overflow: visible; */
+    transform: translateY(0);
+}
+
+.navOverlays:hover {
+    opacity: 1;
+}
+
+.title{
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+
+
+.nav-tile:nth-child(1), .nav-tile:nth-child(2), .nav-tile:nth-child(3), .nav-tile:nth-child(4), .nav-tile:nth-child(5), .nav-tile:nth-child(6){
+    position: relative;
+}
+
+/* .navOverlays-on{
+    display: block;
+    background-color: #f98e2e;
+    width: 100vh;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navOverlays-off {
+    display: none;
+} */
+
+
+
+
+
+/* footer */
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(11, auto);
+    margin: 10%;
+
+}
+
+.footerOtherLink {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footerLocation div {
+    display: flex;
+    flex-direction: row;
+    width: 20rem
+    
+}
+
+.footerLocation div p {
+    margin: 20px;
+}
+
+.footer-icon {
+    display: block;
+    width: 50px;
+    height: auto;
+    
+}
+
+.footerContact p, .sub-container {
+    margin-top: 1rem;
+}
+
+.sub-container {
+    display: flex;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border: grey solid 1px;
+}
+
+.sub-container a img {
+    width: 2.4rem;
+    height: auto;
+    margin-left: -2.3rem;
+}
+
+.soci-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.soci-container a img {
+    display: block;
+    width: 50px;
+    height: auto;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+/*help*/
+body {
+    position: relative;
+}
+
+.help-container{
+    position: fixed;
+    z-index: 2;
+    bottom: 10px;
+    right: 10px;
+}
+
+.help-container img {
+    width: 4rem;
+    height: auto;
+}

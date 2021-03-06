@@ -1,0 +1,71 @@
+/* fonts */
+.pageHeader h1 {
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.card p {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 12pt; 
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+header > * {
+    width: 21rem;
+    
+}
+
+/* card class */
+
+.whatsNewWrapper {
+    display: flexbox;
+    flex-direction: row;
+}
+
+.card {
+    margin-top: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 20rem;
+    
+
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.descriptions {
+    color:whitesmoke;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    height: inherit;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.descriptions:hover {
+    opacity: 1;
+
+}
+
+.descriptions > * {
+    margin: 1rem;
+    transform: translateX(-100px);
+    transition: transform 0.2s;
+
+}
+
+.descriptions:hover > * {
+    transform: translateY(0);
+}
+
+.descriptionsBlur {
+    backdrop-filter: blur(6px);
+}
