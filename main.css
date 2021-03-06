@@ -270,3 +270,30 @@ body {
     width: 4rem;
     height: auto;
 }
+
+/*TABLETS*/
+
+
+@media only screen and (min-width: 768px){
+	.content-wrapper {
+
+        grid-template-columns:repeat(2, 50%);
+        grid-template-rows: repeat(3, auto);
+        /* width: 80%; */
+    
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        margin: 10%;
+    
+    }
+    
+    footer > * {
+        width: 12rem;
+        margin: 2rem;
+    }
+
+}

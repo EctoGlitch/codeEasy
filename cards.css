@@ -69,3 +69,70 @@ header > * {
 .descriptionsBlur {
     backdrop-filter: blur(6px);
 }
+
+.whatsNewWrapper {
+    display: flexbox;
+    flex-direction: row;
+}
+
+
+@media only screen and (min-width: 768px){
+    
+    /*header*/
+    .pageHeader h1 {
+        color: black;
+        margin-bottom: 2rem;
+    }
+
+    header {
+        display: flex;
+        margin: 2rem;
+    }
+    
+    header > * {
+        width: 90%;
+        justify-content: center;
+        
+    }
+    
+    /*cards*/
+    .whatsNewWrapper, .drinksWrapper, .PPEWrapper, .kitAndSubsWrapper  {
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    
+    .limitedWrapper {
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+    }
+
+    .otherOfferingsWrapper {
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        margin: 1rem;
+        position: relative;
+        
+
+        width: 19rem;
+        height: 19rem;
+        
+    
+        border-radius: 1.5rem;
+        overflow: hidden;
+    }
+}
