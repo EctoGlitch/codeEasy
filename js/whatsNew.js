@@ -1,15 +1,15 @@
 const whatsNew = [
     {
-        src: 'https://cdn.shopify.com/s/files/1/2256/4539/products/TimFinnigan_1.jpg?v=1614620411',
-        name: "Tim Finnigan's Morning Wake Up Cocktail Kit",
-        description: "This is an extremely limited pre-purchase item that will be fulfilled for delivery on or around St. Patrick's day, March 17.",
-        price: '$79.95',
+        src: 'images/berrypack.png',
+        name: "Berry Shine Spring Bundle",
+        description: "The snow is melting and spring is in the air! You've earned some patio time, so enjoy it in style. Even if it is just your backyard...",
+        price: '$47.95',
         rating: 'Not Rated'   
     },
 
     {
-        src: 'https://cdn.shopify.com/s/files/1/2256/4539/products/ShamrockVodka1_1.png?v=1614348386',
-        name: "St. Patrick's Day Adventure Game Kit",
+        src: 'images/TimFinnigan_2.jpg',
+        name: "Tim Finnigan's Morning Wake Up Cocktail Kit",
         description: "Old Tim Finnigan would wake-up for this fine cocktail delight for sure! Pairing all of your Sunday morning favourites... Coffee, Cupcakes and Irish Cream, you don't want to miss out on this St Paddy's Day Cocktail Kit!",
         price: '$79.95',
         rating: 'Not Rated'
@@ -18,7 +18,7 @@ const whatsNew = [
     {
         src: 'https://cdn.shopify.com/s/files/1/2256/4539/products/IrishBreezeCocktailKitContents.png?v=1614090912',
         name: 'Irish Breeze Cocktail Kit',
-        description: "Feeling like a little Irish Breeze to brighten your winter spirits, Top Shelf Distillers has the perfect cocktail for you! With a nod to the whisky distilling heritage of Perth Ontario and a fresh crisp hint of mint and cucumber, you'll be transported to the coastal shores of Ireland in no time!",
+        description: "Feeling like a little Irish Breeze to brighten your winter spirits, Top Shelf Distillers has the perfect cocktail for you! With a nod to the whisky distilling heritage of Perth Ontario and a fresh crisp hint of mint and cucumber...",
         price: '$70.95',
         rating: 'Not Rated'
     },

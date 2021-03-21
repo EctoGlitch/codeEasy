@@ -1,27 +1,19 @@
 const limited = [
     {
-        src: 'https://cdn.shopify.com/s/files/1/2256/4539/products/ShamrockVodka1_1.png?v=1614348386',
-        name: "St. Patrick's Day Adventure Game Kit (1x vodka)",
-        description: "This is an extremely limited pre-purchase item that will be fulfilled for delivery on or around St.Patricks day, March 17.",
-        price: '$79.95',
+        src: 'images/berrypack.png',
+        name: "Berry Shine Spring Bundle",
+        description: "The snow is melting and spring is in the air! You've earned some patio time, so enjoy it in style. Even if it is just your backyard...",
+        price: '$47.95',
         rating: 'Not Rated',
 
     },
 
     {
-        src: 'https://cdn.shopify.com/s/files/1/2256/4539/products/ShamrockVodka2_1.png?v=1614348385',
-        name: "St. Patrick's Day Adventure Game Kit (2x vodka)",
-        description: "This is an extremely limited pre-purchase item that will be fulfilled for delivery on or around St.Patricks day, March 17.",
-        price: '$99.95',
-        rating: 'Not Rated'
-    },
-
-    {
-        src: 'https://cdn.shopify.com/s/files/1/2256/4539/products/TimFinnigan_1.jpg?v=1614620411',
-        name: " Tim Finnigan's Morning Wake Up Cocktail Kit",
-        description: "Old Tim Finnigan would wake-up for this fine cocktail delight for sure! Pairing all of your Sunday morning favourites... Coffee, Cupcakes and Irish Cream, you don't want to miss out on this St Paddy's Day Cocktail Kit...",
-        price: '$79.95',
-        rating: 'Not Rated'
+        src: 'images/NYECocktailKit.png',
+        name: "Midnight Gruvi Cocktail Kit",
+        description: "T1 x Vintage Glass from our consignment collection partner Vanity Vintage. Glassware will vary kit to kit...",
+        price: '$48.95',
+        rating: '5/5'
     },
 
     {

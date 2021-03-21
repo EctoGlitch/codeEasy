@@ -18,17 +18,17 @@ const otherOfferings = [
     {
         src: 'https://cdn.shopify.com/s/files/1/2256/4539/products/vhallfx600.png?v=1601998126',
         name: "The Seance of Victoria Hall Experience",
-        description: "The Seance of Victoria Hall is an extremely limited run specialty game designed for 2-4 adult players. Have a night in with friends this Halloween while you unravel the mystery at Perth's historic...",
+        description: "The Seance of Victoria Hall is an extremely limited run specialty game designed for 2-4 adult players. Have a night in with friends this Halloween while you unravel the mystery...",
         price: '$169.95',
         rating: '4.5/5'
     },
 
     {
-        src: 'https://cdn.shopify.com/s/files/1/2256/4539/products/ShamrockVodka1_1.png?v=1614348386',
-        name: "Name: St. Patrick's Day Adventure Game Kit",
-        description: "In this light and casual card game, players take turns picking travel adventures around the world. Depending on your globe-trotting journey, you and your team either earn points to win...",
-        price: '$79.95',
-        rating: 'Not Rated'
+        src: 'images/GAMEMOCKUPV2.png',
+        name: "Drink Your Own Adventure Game: Vol.1 Around The World",
+        description: "In this light and casual card game, players take turns picking travel adventures around the world. Depending on your globe-trotting journey, you and your team either...",
+        price: '$34.95',
+        rating: '3/5'
     },
 
     {
