@@ -31,13 +31,14 @@ p {
     width: 80%;
     margin: 1rem;
 }
-
+/* images */
 img {
     display: block;
     width: 100%;
     height: auto;
 }
 
+/* all text properties */
 body {
     text-align: left;
 }
@@ -98,6 +99,7 @@ article a:hover, article a:active {
         width: 60%;
     }
 
+    /* map styles */
     iframe {
         display: block;
         height: 40rem;

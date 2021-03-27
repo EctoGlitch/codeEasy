@@ -1,3 +1,4 @@
+//array for kits and subscription data 
 const kitAndSubs = [
     {
         src: 'https://cdn.shopify.com/s/files/1/2256/4539/products/VDayKit.png?v=1611876047',
@@ -72,6 +73,7 @@ const $kitAndSubsWrapper = document.getElementById('kitAndSubsWrapper')
 //iterates over kitAndSubs array of objects and pushes with template literal
 for (i = 0; i < kitAndSubs.length; i++) {
     
+    //template literal for each object in the array
     kitAndSubsWrapperHolder.push(`<div class="card" id="card"> 
                                     <img src="${kitAndSubs[i].src}" alt="${kitAndSubs[i].name}">
                                     <div class="descriptions descriptionsBlur">

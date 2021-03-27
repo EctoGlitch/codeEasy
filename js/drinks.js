@@ -1,3 +1,4 @@
+// array containing all drink data
 const drinks = [
     {
         src: 'https://cdn.shopify.com/s/files/1/2256/4539/products/SHOPIFYSQUARE-TOPSHEFVODKA1.14L-01.png?v=1612451094',
@@ -280,6 +281,7 @@ const $drinksWrapper = document.getElementById('drinksWrapper')
 //iterates over drinks array of objects and pushes with template literal
 for (i = 0; i < drinks.length; i++) {
     
+    //template literal for each object in the array
     drinksWrapperHolder.push(`<div class="card" id="card"> 
                                     <img src="${drinks[i].src}" alt="${drinks[i].name}">
                                     <div class="descriptions descriptionsBlur">

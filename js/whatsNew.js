@@ -1,3 +1,4 @@
+
 const whatsNew = [
     {
         src: 'images/berrypack.png',
@@ -33,6 +34,7 @@ const $whatsNewWrapper = document.getElementById('whatsNewWrapper')
 //iterates over whatsNew array of objects and pushes with template literal
 for (i = 0; i < whatsNew.length; i++) {
     
+    //template literal for each object in the array
     whatsNewWrapperHolder.push(`<div class="card" id="card"> 
                                     <img src="${whatsNew[i].src}" alt="${whatsNew[i].name}">
                                     <div class="descriptions descriptionsBlur">

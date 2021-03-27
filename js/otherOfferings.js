@@ -1,3 +1,4 @@
+// holds datas for misc products
 const otherOfferings = [
     {
         src: 'https://cdn.shopify.com/s/files/1/2256/4539/products/image.png?v=1606496059',
@@ -136,6 +137,7 @@ const $otherOfferingsWrapper = document.getElementById('otherOfferingsWrapper')
 //iterates over otherOfferings array of objects and pushes with template literal
 for (i = 0; i < otherOfferings.length; i++) {
     
+    //template literal for each object in the array
     otherOfferingsWrapperHolder.push(`<div class="card" id="card"> 
                                     <img src="${otherOfferings[i].src}" alt="${otherOfferings[i].name}">
                                     <div class="descriptions descriptionsBlur">

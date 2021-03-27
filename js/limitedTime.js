@@ -1,3 +1,4 @@
+// array for all limited time product data
 const limited = [
     {
         src: 'images/berrypack.png',
@@ -113,7 +114,8 @@ const $limitedWrapper = document.getElementById('limitedWrapper')
 
 //iterates over limited array of objects and pushes with template literal
 for (i = 0; i < limited.length; i++) {
-    
+
+    //template literal for each object in the array
     limitedWrapperHolder.push(`<div class="card" id="card"> 
                                     <img src="${limited[i].src}" alt="${limited[i].name}">
                                     <div class="descriptions descriptionsBlur">

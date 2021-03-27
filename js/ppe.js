@@ -1,3 +1,4 @@
+//holds data for ppe products
 const ppe = [
     {
         src: 'https://cdn.shopify.com/s/files/1/2256/4539/products/SHOPIFYSQUARE-50MLSPRAYHANDSANITIZER_UNSCENTED_-01.jpg?v=1602004752',
@@ -56,6 +57,7 @@ const $PPEWrapper = document.getElementById('PPEWrapper')
 //iterates over PPE array of objects and pushes with template literal
 for (i = 0; i < ppe.length; i++) {
     
+    //template literal for each object in the array
     PPEWrapperHolder.push(`<div class="card" id="card"> 
                                     <img src="${ppe[i].src}" alt="${ppe[i].name}">
                                     <div class="descriptions descriptionsBlur">
